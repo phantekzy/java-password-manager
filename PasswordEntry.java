@@ -8,4 +8,16 @@ public class PasswordEntry {
     this.username = username;
     this.password = password;
   }
+
+  public String getWebsite() {
+    return website;
+  }
+
+  public String getUsername() {
+    return username;
+  }
+
+  public String getPassword() {
+    return password;
+  }
 }
