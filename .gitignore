@@ -1,0 +1,20 @@
+# --- Java Compiled Files ---
+*.class
+*.jar
+*.war
+
+# --- Virtual Machine / OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Specific Files (VS Code, IntelliJ, etc) ---
+.vscode/
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# --- Temporary Files ---
+*.log
+*.tmp
