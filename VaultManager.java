@@ -23,4 +23,15 @@ public class VaultManager {
       }
     }
   }
+
+  public String generateStrongPassword() {
+    String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+    StringBuilder sb = new StringBuilder();
+    Random rand = new Random();
+
+    for (int i = 0; i < 12; i++) {
+      sb.append(chars.charAt(rand.nextInt(chars.length())));
+    }
+    return sb.toString();
+  }
 }
